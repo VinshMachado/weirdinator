@@ -1,0 +1,119 @@
+* {
+  border: border-box;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.nav {
+  height: 80px;
+  padding: 10px;
+  border: 3px;
+  border: solid;
+  border-color: pink;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  width: auto;
+  color: azure;
+  background-color: #340c5a;
+  overflow: hidden;
+  font-size: 70px;
+  font-family: cursive;
+  text-shadow: 4px 4px rgb(20, 20, 20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: #e6d2f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main {
+  height: 90vh;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+.textarea {
+  height: 550px;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 7px;
+  width: 1300px;
+  background-color: rgb(146, 146, 194);
+  border-radius: 10px;
+  flex-direction: column;
+}
+.text {
+  height: 60px;
+  width: 200px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  overflow: hidden;
+  align-items: center;
+  font-family: cursive;
+}
+.waste {
+  height: 60px;
+  width: 200px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+button {
+  height: 40px;
+  width: 60px;
+  border: 10px;
+  background-color: #cfa5f3;
+  box-shadow: 3px 5px #501287;
+  border-radius: 10%;
+  border: solid;
+  border-color: #dbbcf6;
+}
+.image {
+  height: 220px;
+  width: 220px;
+  background-color: #e8def1;
+  display: flex;
+  border-radius: 10%;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  height: 80px;
+  width: auto;
+}
+.container {
+  height: 100px;
+  width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#e {
+  height: 200px;
+  border-radius: 10%;
+  width: 200px;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin: 0%;
+  }
+}
